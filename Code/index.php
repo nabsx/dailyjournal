@@ -41,8 +41,7 @@ include "koneksi.php";
       <div class="container">
         <div class="d-flex flex-column justify-content-center vh-100 align-items-center">
           <h1 class="fw-bold text-center">My Daily <br>Journal</h1>
-          <h4 class="fs-5 my-2">Nabhaan Auryshafa Adhigana</h4>
-          <button type="button" class="btn btn-warning fs-6 fw-bold mt-2" onclick="location.href='login.php'">Get Started</button>
+          <button type="button" class="btn btn-warning fs-6 fw-bold mt-2" onclick="location.href='login.php'">Login Here !</button>
         </div>
       </div>
     </section>
