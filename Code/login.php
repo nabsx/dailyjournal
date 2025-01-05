@@ -72,11 +72,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <form action="login.php" method="post">
             <div class="mb-3">
-                <label for="user" class="form-label">Username</label>
+                <label for="user" class="form-label">Username :</label>
                 <input type="text" class="form-control" id="user" name="user" required>
             </div>
             <div class="mb-3">
-                <label for="pass" class="form-label">Password</label>
+                <label for="pass" class="form-label">Password :</label>
                 <input type="password" class="form-control" id="pass" name="pass" required>
             </div>
             <button type="submit" class="btn btn-primary w-100 btn-lg">Login</button>
