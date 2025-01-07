@@ -98,7 +98,7 @@ if (isset($_POST['simpan'])) {
     }
 
     if ($stmt->execute()) {
-        echo "<script>alert('Data berhasil disimpan!'); window.location.reload();</script>";
+        echo "<script>alert('Data berhasil disimpan!'); window.location</script>";
     } else {
         echo "<script>alert('Gagal menyimpan data!');</script>";
     }
@@ -113,7 +113,7 @@ if (isset($_POST['hapus'])) {
     $stmt = $conn->prepare("DELETE FROM user WHERE id = ?");
     $stmt->bind_param("i", $id);
     if ($stmt->execute()) {
-        echo "<script>alert('Data berhasil dihapus!'); window.location.reload();</script>";
+        echo "<script>alert('Data berhasil disimpan!'); window.location</script>";
     } else {
         echo "<script>alert('Gagal menghapus data!');</script>";
     }
